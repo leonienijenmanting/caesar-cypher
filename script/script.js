@@ -38,14 +38,14 @@ function decrypt(text, key) {
 }
 
 function onClickEncrypt() {
-  const plaintext = $('textarea#plaintext').val();
+  const plaintext = $('textarea#plaintext').val().toLowerCase();
   const key = getKey();
   $('textarea#ciphertext').val(encrypt(plaintext, key));
   // $('textarea#plaintext').val('');
 }
 
 function onClickDecrypt() {
-  const ciphertext = $('textarea#ciphertext').val();
+  const ciphertext = $('textarea#ciphertext').val().toLowerCase();
   const key = getKey();
   $('textarea#plaintext').val(decrypt(ciphertext, key));
   // $('textarea#ciphertext').val('');
