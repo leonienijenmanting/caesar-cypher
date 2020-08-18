@@ -1,0 +1,49 @@
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: #f0ece3;
+  text-align: center;
+}
+
+h1 {
+  margin: 60px;
+  font-size: 3rem;
+  font-family: 'Passion One', cursive;
+  color: #596e79;
+}
+
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+	margin-top: 0.5em;
+}
+
+label {
+	display: block;
+	margin: 0.75em 0;
+	font-weight: bold;
+}
+
+.top {
+  width: 50%;
+  margin: auto;
+}
+
+.btn{
+  margin: 30px;
+  font-size: 2rem;
+  font-family: 'Passion One';
+  background-color: #411f1f;
+  color: #c7b198;
+}
+
+#plaintext {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+#ciphertext {
+  font-family: 'Nanum Myeongjo', serif;
+}

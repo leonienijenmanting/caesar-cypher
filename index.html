@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="top">
+      <h1>Caesar Cipher</h1>
+    </div>
+
+    <div class="input-field">
+      <p>
+        <label>
+          Encrypt<br>
+          <textarea id="plaintext" rows="5" cols="40" placeholder="What would you like to encrypt?"></textarea>
+        </label>
+      </p>
+    </div>
+    <div class="buttons">
+      <button type="button" class="btn" id="encrypt-btn" name="encrypt">Encrypt</button>
+    </div>
+    <div class="dropdown-key">
+      <label for="keys">Choose a key:</label>
+      <select id="key" name="key selector">
+      </select>
+    </div>
+    <div>
+      <button type="button" class="btn" id="decrypt-btn" name="decrypt">Decrypt</button>
+    </div>
+    <div class="output-field">
+      <p>
+        <label>
+          Decrypt<br>
+          <textarea id="ciphertext" rows="5" cols="40" placeholder="What would you like to decrypt?"></textarea>
+        </label>
+      </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js" charset="utf-8"></script>
+    </body>
+</html>
